@@ -9,7 +9,7 @@ let nota2 = parseFloat (prompt("Ingrese la nota del segundo corte"));
 let nota3 = parseFloat (prompt("Ingrese la nota del tercer corte"));
 let resultado = parseFloat ((nota1 + nota2 + nota3)/3);
 alert ("La nota final es " + resultado);
-if(resultado<=3)
+if(resultado<3)
 {
     alert("De acuerdo al promedio el estudiante REPROBÓ");
 }
